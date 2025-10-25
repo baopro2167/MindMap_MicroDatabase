@@ -1,0 +1,6 @@
+@MindMap_MicroProject_HostAddress = http://localhost:5070
+
+GET {{MindMap_MicroProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
