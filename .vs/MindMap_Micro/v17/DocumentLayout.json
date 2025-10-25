@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\mindmap_microproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\mindmap_microproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,8 +102,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Service",
+              "DocumentIndex": 1,
+              "Title": "Service.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj",
               "RelativeDocumentMoniker": "Service\\Service.csproj",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj",
@@ -115,8 +115,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Model",
+              "DocumentIndex": 2,
+              "Title": "Model.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj",
               "RelativeDocumentMoniker": "Model\\Model.csproj",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj",
@@ -128,8 +128,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MindMap_MicroProject",
+              "DocumentIndex": 3,
+              "Title": "MindMap_MicroProject.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\MindMap_MicroProject.csproj",
               "RelativeDocumentMoniker": "MindMap_MicroProject\\MindMap_MicroProject.csproj",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\MindMap_MicroProject.csproj",
@@ -165,13 +165,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Program.cs",
               "RelativeDocumentMoniker": "MindMap_MicroProject\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Program.cs",
               "RelativeToolTip": "MindMap_MicroProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T05:37:05.277Z",
               "EditorCaption": ""
