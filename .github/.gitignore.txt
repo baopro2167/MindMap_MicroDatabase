@@ -1,0 +1,36 @@
+# ===== Build results =====
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+[Tt]est[Rr]esults/
+artifacts/
+*.cache/
+*.Cache/
+*.log
+
+# ===== Visual Studio / Rider / VS Code =====
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+.vscode/
+*.userprefs
+*.DotSettings.user
+
+# ===== NuGet =====
+*.nupkg
+*.snupkg
+packages/
+.nuget/packages/
+
+# ===== ASP.NET / Config / Secrets =====
+# Giữ appsettings.json & appsettings.Development.json trong repo nếu muốn,
+# nhưng ignore biến môi trường cục bộ:
+appsettings.*.local.json
+appsettings.Local.json
+*.secrets.json
+.env
+.env.*

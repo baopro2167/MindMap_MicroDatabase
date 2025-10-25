@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\MindMap_MicroProject\\MindMap_MicroProject.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\MindMap_MicroProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\MindMap_MicroProject\\MindMap_MicroProject.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\MindMap_MicroProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\MindMap_MicroProject\\MindMap_MicroProject.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\MindMap_MicroProject.csproj",
         "projectName": "MindMap_MicroProject",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\MindMap_MicroProject\\MindMap_MicroProject.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\MindMap_MicroProject.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\MindMap_MicroProject\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,18 +22,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Service\\Service.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj"
               }
             }
           }
@@ -51,8 +51,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Model\\Model.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Model\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,15 +110,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -135,8 +135,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -179,14 +179,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Service\\Service.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Service\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,18 +197,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_Micro\\MindMap_Micro\\Model\\Model.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj"
               }
             }
           }
@@ -226,8 +226,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
