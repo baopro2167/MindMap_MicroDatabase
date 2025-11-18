@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindMap_MicroProject</name>
+    </assembly>
+    <members>
+        <member name="M:MindMap_MicroProject.Controllers.BaseApiController.Created``1(``0,System.String)">
+            <summary>
+            Trả về response khi tạo mới (HTTP 201).
+            </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BaseApiController.BadRequestResponse(System.String,System.Object)">
+            <summary>
+            Trả về response khi request không hợp lệ (HTTP 400).
+            </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BaseApiController.NotFoundResponse(System.String)">
+            <summary>
+            Trả về response khi không tìm thấy tài nguyên (HTTP 404).
+            </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BaseApiController.ServerErrorResponse(System.String,System.Object)">
+            <summary>
+            Trả về response khi gặp lỗi hệ thống (HTTP 500).
+            </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BranchController.GetById(System.Int32)">
+            <summary>Lấy  branch theo Branch id </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BranchController.GetByMindMap(System.Int32,System.Int32,System.Int32)">
+            <summary>Lấy danh sách  branch theo mindMapId id , có phân trang </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BranchController.GetAllByMindMap(System.Int32)">
+            <summary>Lấy toàn bộ brand theo mindMapId id </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BranchController.Create(Service.DTO.AddBranchRequestDTO)">
+            <summary>tao brand   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BranchController.Update(System.Int32,Service.DTO.UpdateBranchRequestDTO)">
+            <summary>cap nhat brand   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.BranchController.Delete(System.Int32)">
+            <summary>xoa brand   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapController.GetById(System.Int32)">
+            <summary>tim  MindMap theo mindmapid   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapController.Create(Service.DTO.AddMindMapRequestDTO)">
+            <summary>tao  MindMap   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapController.Update(System.Int32,Service.DTO.UpdateMindMapRequestDTO)">
+            <summary>cap nhat  MindMap   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapController.Delete(System.Int32)">
+            <summary>xoa  MindMap   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapController.GetAll(System.Int32,System.Int32)">
+            <summary>Lấy danh sách  mindmap có phân trang </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapController.GetAllNoPaging">
+            <summary>Lấy  toan bo mindmap </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapReportController.GetById(System.Int32)">
+            <summary> tim report theo reportId   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapReportController.GetByMindMap(System.Int32,System.Int32,System.Int32)">
+            <summary> tim  toan bo report theo mindMapId co phan trang   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapReportController.GetByMindMapInRange(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)">
+            <summary> tim  toan bo report, theo ngay thang , theo mindMapId co phan trang   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapReportController.GetAllByMindMap(System.Int32)">
+            <summary> tim  toan bo report theo mindMapId ko phan trang   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapReportController.Create(Service.DTO.AddMindMapReportRequestDTO)">
+            <summary> tao report    </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapReportController.Update(System.Int32,Service.DTO.UpdateMindMapReportRequestDTO)">
+            <summary> cap nhat report    </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.MindMapReportController.Delete(System.Int32)">
+            <summary> xóa report    </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.NodeController.GetById(System.Int32)">
+            <summary>tim  Node theo node id  </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.NodeController.GetByMindMap(System.Int32,System.Int32,System.Int32)">
+            <summary>getall  Node theo mindMapId id co phan trang  </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.NodeController.GetAllByMindMap(System.Int32)">
+            <summary> getall Node theo mindMapId id   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.NodeController.Create(Service.DTO.AddNodeRequestDTO)">
+            <summary>tao  Node   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.NodeController.Update(System.Int32,Service.DTO.UpdateNodeRequestDTO)">
+            <summary> cap nhat  Node   </summary>
+        </member>
+        <member name="M:MindMap_MicroProject.Controllers.NodeController.Delete(System.Int32)">
+            <summary> xoa  Node   </summary>
+        </member>
+    </members>
+</doc>

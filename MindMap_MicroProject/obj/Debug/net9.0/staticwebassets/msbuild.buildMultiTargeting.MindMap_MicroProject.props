@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MindMap_MicroProject.props" />
+</Project>
