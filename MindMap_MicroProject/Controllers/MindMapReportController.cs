@@ -23,7 +23,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> tim  toan bo report theo mindMapId co phan trang   </summary>
-        [HttpGet("mindmap/{mindMapId:int}")]
+        [HttpGet("mindmap/{mindMapId:int}")] 
         public async Task<IActionResult> GetByMindMap(int mindMapId, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
             if (mindMapId <= 0) return BadRequestResponse("mindMapId không hợp lệ");
