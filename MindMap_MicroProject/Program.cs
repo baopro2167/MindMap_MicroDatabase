@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using MindMap_MicroProject.Middlewares;
 using Model;
 using Service;
@@ -29,6 +30,37 @@ builder.Services.AddSwaggerGen(c =>
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     if (File.Exists(xmlPath))
         c.IncludeXmlComments(xmlPath);
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "MindMap_MicroProject",
+        Version = "v1"
+    });
+
+    // ?O?N NÀY LÀM HI?N NÚT AUTHORIZE – PH?I CÓ ?ÚNG NH? V?Y
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "Nh?p token JWT theo ??nh d?ng: Bearer {token}",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] { }
+        }
+    });
 });
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
 // Trong Program.cs
@@ -51,7 +83,7 @@ app.UseCors("AllowAll");
     app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Dish API v1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MindMap API v1");
     c.RoutePrefix = ""; // m? swagger tr?c ti?p t?i "/"
 });
 
