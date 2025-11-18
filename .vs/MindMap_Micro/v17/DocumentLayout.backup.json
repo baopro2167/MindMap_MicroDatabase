@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\mindmapreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\mindmapreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\mindmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\mindmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|solutionrelative:model\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\middlewares\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\middlewares\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\service\\respone\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|solutionrelative:service\\respone\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|solutionrelative:model\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|solutionrelative:model\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\mindmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|solutionrelative:model\\mindmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,30 +71,6 @@
       "RelativeMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|solutionrelative:model\\mindmapdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\mindmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|solutionrelative:model\\mindmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|solutionrelative:model\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\mindmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\mindmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\controllers\\mindmapreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\controllers\\mindmapreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\service\\dto\\addbranchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|solutionrelative:service\\dto\\addbranchrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\service\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A120BE0B-46FB-469B-90D7-75BBEE67E522}|Service\\Service.csproj|solutionrelative:service\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFEE835-C220-460A-BCAA-A8FF5CB2C90A}|MindMap_MicroProject\\MindMap_MicroProject.csproj|solutionrelative:mindmap_microproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E27017DA-CD6B-445A-BC0E-9B0C275AD5CB}|Model\\Model.csproj|c:\\users\\admin\\documents\\github\\mindmap_microdatabase\\model\\enums\\nodetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,8 +130,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Middlewares\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Middlewares\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Middlewares\\JwtMiddleware.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Middlewares\\JwtMiddleware.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAA4wKwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:33:45.249Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Respone\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Service\\Respone\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Respone\\ApiResponse.cs",
+              "RelativeToolTip": "Service\\Respone\\ApiResponse.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:11:06.224Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -158,31 +200,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MindMap.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMap.cs",
-              "RelativeDocumentMoniker": "Model\\MindMap.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMap.cs",
-              "RelativeToolTip": "Model\\MindMap.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA5wCIAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MindMapController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapController.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\MindMapController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapController.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\MindMapController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T00:20:35.68Z"
+              "WhenOpened": "2025-11-18T14:17:31.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MindMapDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMapDbContext.cs",
-              "RelativeDocumentMoniker": "Model\\MindMapDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMapDbContext.cs",
-              "RelativeToolTip": "Model\\MindMapDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wA4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MindMapReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwHYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T00:28:25.236Z"
+              "WhenOpened": "2025-11-18T14:17:44.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NodeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\NodeController.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\NodeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\NodeController.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\NodeController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T05:23:31.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\BranchController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\BranchController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwHcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T00:53:24.759Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:25:21.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Program.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Program.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T05:37:05.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Model\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\JwtSettings.cs",
+              "RelativeToolTip": "Model\\JwtSettings.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:32:51.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\appsettings.json",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\appsettings.json",
+              "RelativeToolTip": "MindMap_MicroProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T05:41:04.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "MindMap_MicroProject\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "MindMap_MicroProject\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA3wDcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:33:11.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppException.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\AppException.cs",
+              "RelativeDocumentMoniker": "Model\\AppException.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\AppException.cs",
+              "RelativeToolTip": "Model\\AppException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:42:17.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Branch.cs",
+              "RelativeDocumentMoniker": "Model\\Branch.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Branch.cs",
+              "RelativeToolTip": "Model\\Branch.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:49:10.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "MindMapReport.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMapReport.cs",
               "RelativeDocumentMoniker": "Model\\MindMapReport.cs",
@@ -194,45 +345,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseApiController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BaseApiController.cs",
-              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\BaseApiController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BaseApiController.cs*",
-              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\BaseApiController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "MindMap.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMap.cs",
+              "RelativeDocumentMoniker": "Model\\MindMap.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMap.cs",
+              "RelativeToolTip": "Model\\MindMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T15:25:21.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T00:20:35.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\appsettings.json",
-              "RelativeDocumentMoniker": "MindMap_MicroProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\appsettings.json",
-              "RelativeToolTip": "MindMap_MicroProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-25T05:41:04.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BranchController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BranchController.cs",
-              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\BranchController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\BranchController.cs",
-              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\BranchController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAcwC8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "MindMapDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMapDbContext.cs",
+              "RelativeDocumentMoniker": "Model\\MindMapDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\MindMapDbContext.cs",
+              "RelativeToolTip": "Model\\MindMapDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T00:53:24.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T00:28:25.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Node.cs",
               "RelativeDocumentMoniker": "Model\\Node.cs",
@@ -244,91 +381,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Respone\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Service\\Respone\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Respone\\ApiResponse.cs",
-              "RelativeToolTip": "Service\\Respone\\ApiResponse.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAADwvzsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T16:11:06.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Branch.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Branch.cs",
-              "RelativeDocumentMoniker": "Model\\Branch.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Branch.cs",
-              "RelativeToolTip": "Model\\Branch.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAkwCQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T15:49:10.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "AddBranchRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\DTO\\AddBranchRequestDTO.cs",
               "RelativeDocumentMoniker": "Service\\DTO\\AddBranchRequestDTO.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\DTO\\AddBranchRequestDTO.cs",
               "RelativeToolTip": "Service\\DTO\\AddBranchRequestDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T01:11:03.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MindMapController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapController.cs",
-              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\MindMapController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapController.cs",
-              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\MindMapController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAswAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T14:17:31.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MindMapReportController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
-              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
-              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\MindMapReportController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T14:17:44.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NodeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\NodeController.cs",
-              "RelativeDocumentMoniker": "MindMap_MicroProject\\Controllers\\NodeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Controllers\\NodeController.cs",
-              "RelativeToolTip": "MindMap_MicroProject\\Controllers\\NodeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T05:23:31.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "IBranchService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\IBranchService.cs",
               "RelativeDocumentMoniker": "Service\\IBranchService.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\IBranchService.cs",
               "RelativeToolTip": "Service\\IBranchService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T00:41:03.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "MindMap_MicroProject.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\MindMap_MicroProject.csproj",
               "RelativeDocumentMoniker": "MindMap_MicroProject\\MindMap_MicroProject.csproj",
@@ -340,19 +417,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "BranchService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\BranchService.cs",
               "RelativeDocumentMoniker": "Service\\BranchService.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\BranchService.cs",
               "RelativeToolTip": "Service\\BranchService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwB8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T05:31:10.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Model.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Model.csproj",
               "RelativeDocumentMoniker": "Model\\Model.csproj",
@@ -364,19 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Program.cs",
-              "RelativeDocumentMoniker": "MindMap_MicroProject\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\MindMap_MicroProject\\Program.cs",
-              "RelativeToolTip": "MindMap_MicroProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T05:37:05.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Service.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\Service.csproj",
               "RelativeDocumentMoniker": "Service\\Service.csproj",
@@ -388,19 +453,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "MindMapReportService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\MindMapReportService.cs",
               "RelativeDocumentMoniker": "Service\\MindMapReportService.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\MindMapReportService.cs",
               "RelativeToolTip": "Service\\MindMapReportService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T05:37:27.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "BranchType.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Enums\\BranchType.cs",
               "RelativeDocumentMoniker": "Model\\Enums\\BranchType.cs",
@@ -412,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "NodeType.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Model\\Enums\\NodeType.cs",
               "RelativeDocumentMoniker": "Model\\Enums\\NodeType.cs",
@@ -424,43 +489,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "BranchReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\DTO\\BranchReadDTO.cs",
               "RelativeDocumentMoniker": "Service\\DTO\\BranchReadDTO.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\DTO\\BranchReadDTO.cs",
               "RelativeToolTip": "Service\\DTO\\BranchReadDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T05:32:10.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "INodeService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\INodeService.cs",
               "RelativeDocumentMoniker": "Service\\INodeService.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\INodeService.cs",
               "RelativeToolTip": "Service\\INodeService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAywBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T05:21:18.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "NodeReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\DTO\\NodeReadDTO.cs",
               "RelativeDocumentMoniker": "Service\\DTO\\NodeReadDTO.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\DTO\\NodeReadDTO.cs",
               "RelativeToolTip": "Service\\DTO\\NodeReadDTO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T05:20:45.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "NodeService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MindMap_MicroDatabase\\Service\\NodeService.cs",
               "RelativeDocumentMoniker": "Service\\NodeService.cs",

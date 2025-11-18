@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MindMap_MicroProject.Middlewares;
 using Model;
 using Service;
 using System.Reflection;
@@ -29,7 +30,19 @@ builder.Services.AddSwaggerGen(c =>
     if (File.Exists(xmlPath))
         c.IncludeXmlComments(xmlPath);
 });
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
+// Trong Program.cs
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("CustomerOnly", policy =>
+        policy.RequireRole("ROLE_CUSTOMER"));
 
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireRole("ROLE_ADMIN"));
+
+    options.AddPolicy("UserOrAdmin", policy =>
+        policy.RequireRole("ROLE_CUSTOMER", "ROLE_ADMIN"));
+});
 var app = builder.Build();
 app.UseCors("AllowAll");
 // Configure the HTTP request pipeline.
@@ -45,7 +58,8 @@ app.UseSwaggerUI(c =>
 
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<JwtMiddleware>();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

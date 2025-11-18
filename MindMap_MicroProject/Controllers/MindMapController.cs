@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Service.DTO;
 using Service;
 using Service.Respone;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MindMap_MicroProject.Controllers
 {
@@ -19,6 +20,7 @@ namespace MindMap_MicroProject.Controllers
 
 
         /// <summary>tim  MindMap theo mindmapid   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -30,6 +32,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>tao  MindMap   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddMindMapRequestDTO dto)
         {
@@ -38,6 +41,7 @@ namespace MindMap_MicroProject.Controllers
 
         }
         /// <summary>cap nhat  MindMap   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateMindMapRequestDTO dto)
         {
@@ -50,6 +54,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>xoa  MindMap   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -69,6 +74,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>Lấy danh sách  mindmap có phân trang </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 3)
         {
@@ -92,6 +98,7 @@ namespace MindMap_MicroProject.Controllers
 
 
         /// <summary>Lấy  toan bo mindmap </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("all")]
         public async Task<IActionResult> GetAllNoPaging()
         {

@@ -1,55 +1,54 @@
-﻿using Model.Pagging;
-using System;
+﻿// File: Service/Respone/ApiResponse.cs
+using Model.Pagging;
 using System.Collections.Generic;
 
 namespace Service.Respone
 {
     public class ApiResponse<T>
     {
-        /// <summary>
-        /// Mã trạng thái HTTP (200, 400, 500…)
-        /// </summary>
         public int StatusCode { get; set; }
-
-        /// <summary>
-        /// Trạng thái xử lý: true = thành công, false = lỗi logic hoặc exception.
-        /// </summary>
         public bool Success { get; set; }
-
-        /// <summary>
-        /// Mô tả ngắn gọn kết quả xử lý.
-        /// </summary>
         public string Message { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Dữ liệu trả về (model, list, hoặc null).
-        /// </summary>
         public T? Data { get; set; }
-
-        /// <summary>
-        /// Chi tiết lỗi (nếu có).
-        /// </summary>
         public object? Errors { get; set; }
-
-        /// <summary>
-        /// Thông tin phân trang (nếu có).
-        /// </summary>
         public PaginationInfo? Pagination { get; set; }
 
-        // ✅ 200 / 201 - Thành công
+        // 200 / 201
         public static ApiResponse<T> Ok(T data, string message = "Success", int statusCode = 200)
             => new() { Success = true, Message = message, Data = data, StatusCode = statusCode };
 
-        // ✅ 400 / 404 - Lỗi logic hoặc request sai
-        public static ApiResponse<T> Fail(string message, object? errors = null, int statusCode = 400)
-            => new() { Success = false, Message = message, Errors = errors, StatusCode = statusCode };
+        public static ApiResponse<T> Created(T data, string message = "Created successfully")
+            => Ok(data, message, 201);
 
-        // ✅ 500 - Lỗi hệ thống
-        public static ApiResponse<T> Error(string message = "Internal Server Error", object? exception = null, int statusCode = 500)
-            => new() { Success = false, Message = message, Errors = exception, StatusCode = statusCode };
+        // 400
+        public static ApiResponse<T> BadRequest(string message = "Bad Request", object? errors = null)
+            => new() { Success = false, Message = message, Errors = errors, StatusCode = 400 };
 
-        // ✅ Tạo phản hồi có phân trang từ PaginatedList<T>
-        public static ApiResponse<IReadOnlyCollection<T>> FromPaginatedList(PaginatedList<T> list, string message = "Fetched successfully", int statusCode = 200)
+        // 401 – JWT hết hạn, sai token, thiếu token
+        public static ApiResponse<T> Unauthorized(string message = "Unauthorized")
+            => new() { Success = false, Message = message, StatusCode = 401 };
+
+        // 403 – Có token nhưng không có quyền
+        public static ApiResponse<T> Forbidden(string message = "Forbidden")
+            => new() { Success = false, Message = message, StatusCode = 403 };
+
+        // 404
+        public static ApiResponse<T> NotFound(string message = "Not Found")
+            => new() { Success = false, Message = message, StatusCode = 404 };
+
+        // 409 Conflict (nếu cần)
+        public static ApiResponse<T> Fail(string message = "Fail", object? errors = null)
+            => new() { Success = false, Message = message, Errors = errors, StatusCode = 409 };
+
+        // 500
+        public static ApiResponse<T> Error(string message = "Internal Server Error", object? exception = null)
+            => new() { Success = false, Message = message, Errors = exception, StatusCode = 500 };
+
+        // Phân trang – vẫn giữ nguyên
+        public static ApiResponse<IReadOnlyCollection<T>> FromPaginatedList(
+            PaginatedList<T> list,
+            string message = "Fetched successfully",
+            int statusCode = 200)
         {
             return new ApiResponse<IReadOnlyCollection<T>>
             {

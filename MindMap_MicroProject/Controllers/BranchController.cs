@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Service.DTO;
 using Service.Respone;
 using Service;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MindMap_MicroProject.Controllers
 {
@@ -18,6 +19,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>Lấy  branch theo Branch id </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -27,6 +29,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>Lấy danh sách  branch theo mindMapId id , có phân trang </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("mindmap/{mindMapId:int}")]
         public async Task<IActionResult> GetByMindMap(int mindMapId, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 3)
         {
@@ -48,6 +51,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>Lấy toàn bộ brand theo mindMapId id </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("mindmap/{mindMapId:int}/all")]
         public async Task<IActionResult> GetAllByMindMap(int mindMapId)
         {
@@ -57,6 +61,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>tao brand   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddBranchRequestDTO dto)
         {
@@ -83,6 +88,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>cap nhat brand   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Update(int id, [FromBody] UpdateBranchRequestDTO dto)
         {
@@ -111,6 +117,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>xoa brand   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {

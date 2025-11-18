@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Service.DTO;
 using Service.Respone;
 using Service;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MindMap_MicroProject.Controllers
 {
@@ -14,6 +15,7 @@ namespace MindMap_MicroProject.Controllers
         public MindMapReportController(IMindMapReportService service) => _service = service;
 
         /// <summary> tim report theo reportId   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("{reportId:int}")]
         public async Task<IActionResult> GetById(int reportId)
         {
@@ -23,6 +25,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> tim  toan bo report theo mindMapId co phan trang   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("mindmap/{mindMapId:int}")] 
         public async Task<IActionResult> GetByMindMap(int mindMapId, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
@@ -41,6 +44,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> tim  toan bo report, theo ngay thang , theo mindMapId co phan trang   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("mindmap/{mindMapId:int}/range")]
         public async Task<IActionResult> GetByMindMapInRange(int mindMapId, [FromQuery] DateTime from, [FromQuery] DateTime to,
                                                              [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
@@ -60,7 +64,8 @@ namespace MindMap_MicroProject.Controllers
             return Success(page.Items, "Fetched successfully", pagination);
         }
 
-         /// <summary> tim  toan bo report theo mindMapId ko phan trang   </summary>
+        /// <summary> tim  toan bo report theo mindMapId ko phan trang   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("mindmap/{mindMapId:int}/all")]
         public async Task<IActionResult> GetAllByMindMap(int mindMapId)
         {
@@ -70,6 +75,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> tao report    </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddMindMapReportRequestDTO dto)
         {
@@ -91,6 +97,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> cap nhat report    </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPut("{reportId:int}")]
         public async Task<IActionResult> Update(int reportId, [FromBody] UpdateMindMapReportRequestDTO dto)
         {
@@ -109,6 +116,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> xóa report    </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpDelete("{reportId:int}")]
         public async Task<IActionResult> Delete(int reportId)
         {

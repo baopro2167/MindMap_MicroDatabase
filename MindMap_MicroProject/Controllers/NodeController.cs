@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Service.DTO;
 using Service.Respone;
 using Service;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MindMap_MicroProject.Controllers
 {
@@ -19,6 +20,7 @@ namespace MindMap_MicroProject.Controllers
 
 
         /// <summary>tim  Node theo node id  </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
@@ -29,6 +31,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>getall  Node theo mindMapId id co phan trang  </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("mindmap/{mindMapId:int}")]
         public async Task<IActionResult> GetByMindMap([FromRoute] int mindMapId, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
@@ -49,7 +52,8 @@ namespace MindMap_MicroProject.Controllers
             // Hoặc: return Ok(ApiResponse<Node>.FromPaginatedList(page));
         }
 
-        /// <summary> getall Node theo mindMapId id   </summary>
+        /// <summary> getall Node theo mindMapId id   </summary>\
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpGet("mindmap/{mindMapId:int}/all")]
         public async Task<IActionResult> GetAllByMindMap([FromRoute] int mindMapId)
         {
@@ -59,6 +63,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary>tao  Node   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddNodeRequestDTO dto)
         {
@@ -87,6 +92,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> cap nhat  Node   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateNodeRequestDTO dto)
         {
@@ -117,6 +123,7 @@ namespace MindMap_MicroProject.Controllers
         }
 
         /// <summary> xoa  Node   </summary>
+        [Authorize(Policy = "UserOrAdmin")]
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
