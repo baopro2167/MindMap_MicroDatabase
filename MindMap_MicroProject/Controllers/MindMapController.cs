@@ -6,7 +6,7 @@ using Service.Respone;
 
 namespace MindMap_MicroProject.Controllers
 {
-    [Route("api/mindmaps")]
+    [Route("api/v1/mindmaps")]
     [ApiController]
     public class MindMapController : BaseApiController
     {
