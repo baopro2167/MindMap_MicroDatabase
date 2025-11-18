@@ -1,14 +1,16 @@
 ﻿using Model.Pagging;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Service.Respone
 {
     public class ApiResponse<T>
     {
+        /// <summary>
+        /// Mã trạng thái HTTP (200, 400, 500…)
+        /// </summary>
+        public int StatusCode { get; set; }
+
         /// <summary>
         /// Trạng thái xử lý: true = thành công, false = lỗi logic hoặc exception.
         /// </summary>
@@ -35,25 +37,26 @@ namespace Service.Respone
         public PaginationInfo? Pagination { get; set; }
 
         // ✅ 200 / 201 - Thành công
-        public static ApiResponse<T> Ok(T data, string message = "Success")
-            => new() { Success = true, Message = message, Data = data };
+        public static ApiResponse<T> Ok(T data, string message = "Success", int statusCode = 200)
+            => new() { Success = true, Message = message, Data = data, StatusCode = statusCode };
 
         // ✅ 400 / 404 - Lỗi logic hoặc request sai
-        public static ApiResponse<T> Fail(string message, object? errors = null)
-            => new() { Success = false, Message = message, Errors = errors };
+        public static ApiResponse<T> Fail(string message, object? errors = null, int statusCode = 400)
+            => new() { Success = false, Message = message, Errors = errors, StatusCode = statusCode };
 
         // ✅ 500 - Lỗi hệ thống
-        public static ApiResponse<T> Error(string message = "Internal Server Error", object? exception = null)
-            => new() { Success = false, Message = message, Errors = exception };
+        public static ApiResponse<T> Error(string message = "Internal Server Error", object? exception = null, int statusCode = 500)
+            => new() { Success = false, Message = message, Errors = exception, StatusCode = statusCode };
 
         // ✅ Tạo phản hồi có phân trang từ PaginatedList<T>
-        public static ApiResponse<IReadOnlyCollection<T>> FromPaginatedList(PaginatedList<T> list, string message = "Fetched successfully")
+        public static ApiResponse<IReadOnlyCollection<T>> FromPaginatedList(PaginatedList<T> list, string message = "Fetched successfully", int statusCode = 200)
         {
             return new ApiResponse<IReadOnlyCollection<T>>
             {
                 Success = true,
                 Message = message,
                 Data = list.Items,
+                StatusCode = statusCode,
                 Pagination = new PaginationInfo
                 {
                     PageNumber = list.PageNumber,
@@ -65,9 +68,6 @@ namespace Service.Respone
         }
     }
 
-    /// <summary>
-    /// Metadata về phân trang (chỉ dùng để hiển thị trong JSON trả về).
-    /// </summary>
     public class PaginationInfo
     {
         public int PageNumber { get; set; }
@@ -76,4 +76,3 @@ namespace Service.Respone
         public int TotalPages { get; set; }
     }
 }
-

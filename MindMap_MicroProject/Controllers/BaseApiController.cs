@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Service.Respone;
+using Model.Pagging;
 
 namespace MindMap_MicroProject.Controllers
 {
@@ -8,43 +9,64 @@ namespace MindMap_MicroProject.Controllers
     [ApiController]
     public class BaseApiController : ControllerBase
     {
-        protected IActionResult Success<T>(T data, string message = "Success", PaginationInfo? pagination = null)
+        // Thành công + có thể kèm phân trang + custom status code
+        protected IActionResult Success<T>(
+            T data,
+            string message = "Success",
+            PaginationInfo? pagination = null,
+            int statusCode = StatusCodes.Status200OK)
         {
-            var response = ApiResponse<T>.Ok(data, message);
-            response.Pagination = pagination;
-            return Ok(response); // HTTP 200
+            var response = new ApiResponse<T>
+            {
+                Success = true,
+                Message = message,
+                Data = data,
+                StatusCode = statusCode,
+                Pagination = pagination
+            };
+
+            return StatusCode(statusCode, response);
         }
 
-        /// <summary>
-        /// Trả về response khi tạo mới (HTTP 201).
-        /// </summary>
+        // Dành riêng cho Created (201)
         protected IActionResult Created<T>(T data, string message = "Created successfully")
         {
-            return StatusCode(201, ApiResponse<T>.Ok(data, message)); // HTTP 201
+            return Success(data, message, statusCode: StatusCodes.Status201Created);
         }
 
-        /// <summary>
-        /// Trả về response khi request không hợp lệ (HTTP 400).
-        /// </summary>
+        // BadRequest (400)
         protected IActionResult BadRequestResponse(string message = "Bad Request", object? errors = null)
         {
-            return BadRequest(ApiResponse<object>.Fail(message, errors)); // HTTP 400
+            return BadRequest(new ApiResponse<object>
+            {
+                Success = false,
+                Message = message,
+                Errors = errors,
+                StatusCode = StatusCodes.Status400BadRequest
+            });
         }
 
-        /// <summary>
-        /// Trả về response khi không tìm thấy tài nguyên (HTTP 404).
-        /// </summary>
+        // NotFound (404)
         protected IActionResult NotFoundResponse(string message = "Not Found")
         {
-            return NotFound(ApiResponse<object>.Fail(message)); // HTTP 404
+            return StatusCode(StatusCodes.Status404NotFound, new ApiResponse<object>
+            {
+                Success = false,
+                Message = message,
+                StatusCode = StatusCodes.Status404NotFound
+            });
         }
 
-        /// <summary>
-        /// Trả về response khi gặp lỗi hệ thống (HTTP 500).
-        /// </summary>
+        // Server Error (500)
         protected IActionResult ServerErrorResponse(string message = "Internal Server Error", object? exception = null)
         {
-            return StatusCode(500, ApiResponse<object>.Error(message, exception)); // HTTP 500
+            return StatusCode(StatusCodes.Status500InternalServerError, new ApiResponse<object>
+            {
+                Success = false,
+                Message = message,
+                Errors = exception,
+                StatusCode = StatusCodes.Status500InternalServerError
+            });
         }
     }
 }
