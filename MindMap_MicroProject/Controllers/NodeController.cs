@@ -6,7 +6,7 @@ using Service;
 
 namespace MindMap_MicroProject.Controllers
 {
-    [Route("api/Node")]
+    [Route("api/nodes")]
     [ApiController]
     public class NodeController : BaseApiController
     {

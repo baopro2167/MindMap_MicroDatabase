@@ -6,7 +6,7 @@ using Service;
 
 namespace MindMap_MicroProject.Controllers
 {
-    [Route("api/Branch")]
+    [Route("api/branchs")]
     [ApiController]
     public class BranchController : BaseApiController
     {
