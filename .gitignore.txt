@@ -1,0 +1,69 @@
+# .NET / Visual Studio
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.cache
+*.tmp
+*.log
+
+# Rider / VS Code
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Secrets & Config
+appsettings.*.json
+secrets.json
+*.env
+*.key
+
+# Node / Frontend (nếu có React/Vue trong cùng repo)
+node_modules/
+wwwroot/dist/
+wwwroot/build/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.mdf
+*.ldf
+
+# Migration EF (tùy chọn)
+Migrations/*_*.cs
+!Migrations/2025*_*.cs   # giữ lại file migration thật
