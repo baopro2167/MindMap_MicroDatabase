@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Model
 {
@@ -29,9 +30,11 @@ namespace Model
         public string? Label { get; set; }
 
         public string? Style { get; set; }
-
+        [JsonIgnore]
         public virtual MindMap? MindMap { get; set; }
+        [JsonIgnore]
         public virtual Node? SourceNode { get; set; }
+        [JsonIgnore]
         public virtual Node? TargetNode { get; set; }
      
     }

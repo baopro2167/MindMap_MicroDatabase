@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Model
 {
@@ -33,14 +34,22 @@ namespace Model
         public string? Shape { get; set; }
 
         public int OrderIndex { get; set; }
+        [JsonIgnore]
 
         public virtual MindMap? MindMap { get; set; }
+        [JsonIgnore]
+
         public virtual Node? ParentNode { get; set; }
+
+        [JsonIgnore]
         public virtual ICollection<Node> ChildNodes { get; set; } = new List<Node>();
 
+        [JsonIgnore]
         [InverseProperty("SourceNode")]
         public virtual ICollection<Branch> OutgoingBranches { get; set; } = new List<Branch>();
 
+
+        [JsonIgnore]
         [InverseProperty("TargetNode")]
         public virtual ICollection<Branch> IncomingBranches { get; set; } = new List<Branch>();
     }

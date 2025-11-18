@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Model
 {
@@ -19,6 +20,7 @@ namespace Model
         public string? ReportContent { get; set; }
 
         // Navigation property
+        [JsonIgnore]
         public virtual MindMap? MindMap { get; set; }
     }
 }
